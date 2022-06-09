@@ -62,7 +62,7 @@ const typeDefs = gql`
   type CurrentWeather {
     id: ID!
     name: String
-    weather: WeatherListItem!
+    weather: [WeatherListItem]!
     main: Main
     wind: Wind
     clouds: Clouds
