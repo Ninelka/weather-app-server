@@ -48,7 +48,7 @@ const typeDefs = gql`
     weather: [WeatherListItem]!
     clouds: Clouds
     wind: Wind
-    pop: Int
+    pop: Float
     sys: Sys
   }
 
