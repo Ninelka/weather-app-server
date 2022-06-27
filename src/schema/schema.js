@@ -68,6 +68,7 @@ const typeDefs = gql`
     wind: Wind
     clouds: Clouds
     sys: Sys
+    visibility: Int
   }
 
   type Query {
